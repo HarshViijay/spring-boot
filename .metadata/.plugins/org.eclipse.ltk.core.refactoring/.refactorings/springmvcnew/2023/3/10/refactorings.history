@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.entities.Todo.todoDate&apos; in &apos;com.entities.Todo&apos;&#x0D;&#x0A;- Original project: &apos;springmvcnew&apos;&#x0D;&#x0A;- Original element: &apos;com.entities.Todo.todoDate&apos;&#x0D;&#x0A;- Getter method name: &apos;getTodoDate&apos;&#x0D;&#x0A;- Setter method name: &apos;setTodoDate&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;todoDate&apos;" flags="589830" getter="getTodoDate" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.entities{Todo.java[Todo^todoDate" insertion="8" setter="setTodoDate" stamp="1678563923587" version="1.0" visibility="1"/>
+</session>

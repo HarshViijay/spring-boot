@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:util="http://www.springframework.org/schema/util"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd
+ http://www.springframework.org/schema/util
+     http://www.springframework.org/schema/util/spring-util.xsd">
+     
+     <bean name="emp1" class="com.springcore.collections.Emp">
+		 <property name="name" value="Sam" />
+		 
+		 <property name="phones">
+			 <list>
+				 <value>7849387598</value>
+				 <value>8849387598</value>
+				 <value>9849387598</value>
+				 <value>9949387598</value>
+			 </list>
+		 </property>
+		 
+		 <property name="addresses">
+			 <set>
+				 <value>Delhi</value>
+				 <value>Lucknow</value>
+				 <value>Mumbai</value>
+			 </set>
+		 </property>
+		 
+		 <property name="courses">
+			 <map>
+				 <entry key="Java" value="2 months"/>
+				 <entry key="Python" value="1 months"/>
+				 <entry key="C++" value="2 months"/>
+			 </map>
+		 </property>
+		 
+	 </bean>
+     
+ </beans>

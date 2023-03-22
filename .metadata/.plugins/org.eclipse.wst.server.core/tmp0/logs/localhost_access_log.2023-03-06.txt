@@ -1,0 +1,7 @@
+127.0.0.1 - - [06/Mar/2023:11:52:59 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Mar/2023:11:53:00 +0530] "GET /springmvc/ HTTP/1.1" 404 765
+0:0:0:0:0:0:0:1 - - [06/Mar/2023:11:53:00 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [06/Mar/2023:11:54:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Mar/2023:11:54:25 +0530] "GET /springmvc/WEB-INF/classes/com/spring/mvc/controller/HomeController.java HTTP/1.1" 404 850
+0:0:0:0:0:0:0:1 - - [06/Mar/2023:11:54:36 +0530] "GET /springmvc/hello HTTP/1.1" 404 770
+0:0:0:0:0:0:0:1 - - [06/Mar/2023:12:12:14 +0530] "GET /springmvc/ HTTP/1.1" 404 765
